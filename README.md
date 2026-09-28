@@ -285,6 +285,7 @@ raw TSVs ─► normalise ─► blocking (7 passes + sibling expansion) ─► 
 ├── LICENSE
 ├── requirements.txt
 ├── code/business_entity_resolution/
+│   ├── README.md                 # reproduction guide
 │   ├── reproduce.sh              # end-to-end reproduction of the final submission
 │   └── src/
 │       ├── run_pipeline.py       # one full round: normalise → block → features → models → outputs
@@ -300,7 +301,8 @@ raw TSVs ─► normalise ─► blocking (7 passes + sibling expansion) ─► 
 ├── experiments/                  # leave-country-out and bi-encoder studies (not needed to reproduce;
 │                                 #   copy into code/business_entity_resolution/src/ to run)
 └── docs/
-    ├── SOLUTION.md               # full methodology write-up
+    ├── SOLUTION.md               # full methodology write-up (the challenge's Documentation_template.md)
+    ├── TeamMagnum_Methodology.pdf # methodology summary (PDF)
     └── VERSION_LOG.md            # every version, its change, CV and leaderboard score
 ```
 
