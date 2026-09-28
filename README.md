@@ -312,8 +312,8 @@ Requires Python 3.10 on Linux and a CUDA GPU. The GPU is needed for embeddings, 
 cross-encoder training. CPU-only runs work but are very slow.
 
 ```bash
-git clone https://github.com/Abhinab123/business-entity-resolution.git
-cd business-entity-resolution
+git clone https://github.com/Abhinab123/Amazon-ML-business-entity-resolution.git
+cd Amazon-ML-business-entity-resolution
 python3.10 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
