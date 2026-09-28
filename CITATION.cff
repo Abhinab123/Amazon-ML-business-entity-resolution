@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Multi-Source Business Entity Resolution (Team Magnum, ML Challenge 2026)"
+authors:
+  - given-names: Abhinab
+    family-names: Bezbaruah
+  - given-names: Aman Singh
+    family-names: Negi
+  - given-names: Arjun
+    family-names: Baidya
+date-released: 2026-09-27
+license: MIT
+repository-code: "https://github.com/Abhinab123/business-entity-resolution"

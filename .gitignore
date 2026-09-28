@@ -1,0 +1,23 @@
+# competition data and organiser files (not redistributable)
+dataset/
+utils/
+
+# models, caches and outputs
+models/
+cache*/
+cache_repro/
+output*/
+reports/
+logs/
+*.npy
+*.npz
+*.parquet
+*.pkl
+*.safetensors
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.venv/
+er_venv/
